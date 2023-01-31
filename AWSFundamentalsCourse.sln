@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9D28909F-BB69-4DE0-8029-E01925A3B96D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Sqs", "3 Sqs", "{9625024C-7899-4DCC-8BE8-14B1454A8B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqsPublisher", "SqsPublisher\SqsPublisher.csproj", "{BE357202-C97C-4C70-BB4D-1D372F2698ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE357202-C97C-4C70-BB4D-1D372F2698ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE357202-C97C-4C70-BB4D-1D372F2698ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE357202-C97C-4C70-BB4D-1D372F2698ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE357202-C97C-4C70-BB4D-1D372F2698ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9625024C-7899-4DCC-8BE8-14B1454A8B62} = {9D28909F-BB69-4DE0-8029-E01925A3B96D}
+		{BE357202-C97C-4C70-BB4D-1D372F2698ED} = {9625024C-7899-4DCC-8BE8-14B1454A8B62}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9254225-84CC-4DA2-98FF-18CF410B7F13}
+	EndGlobalSection
+EndGlobal
